@@ -12,42 +12,43 @@ const About = () => {
       <h2>About me</h2>
 
       <div className="container about__container">
-        <div className="about_me">
+        <div className="about__me">
           <div className="about__me-image">
-
-            <img src={ME} alt="Yep, that's me" />
+            <img src={ME} alt="that's me" />
           </div>
         </div>
 
-        <div className="about_content">
-          <div className="about_cards">
+        <div className="about__content">
+          <div className="about__cards">
             <article className='about__card'>
-              <FaAward className ='about__icon'/>
+              <FaAward className='about__icon'/>
               <h5>Experience</h5>
               <small>1 year study</small>
             </article>
 
             <article className='about__card'>
-              <FiUsers className ='about__icon'/>
-              <h5>Previous company</h5>
-              <small>none so far, you'll be the first one!</small>
+              <FiUsers className='about__icon'/>
+              <h5>Clients</h5>
+              <small>none so far</small>
             </article>
 
             <article className='about__card'>
-              <FaFolderOpen className ='about__icon'/>
+              <FaFolderOpen className='about__icon'/>
               <h5>Projects</h5>
-              <small>7 projects in progress</small>
+              <small>7 projects</small>
             </article>
-            
+            </div>
+
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolore nesciunt corporis molestiae similique vitae minima ipsum suscipit, voluptates architecto alias quae impedit officiis veritatis explicabo nihil consequatur iusto!
+              Passionnate Full Stack developper but front end oriented. I'm happy to join you on your journey!
+              happy Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores magnam molestiae et obcaecati perspiciatis, similique excepturi facilis minima magni porro fuga repudiandae sequi itaque accusantium fugit ea iure ab voluptatum!
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's talk</a>
 
           </div>
         </div>
-      </div>
+      
     </section>
   )
 }
