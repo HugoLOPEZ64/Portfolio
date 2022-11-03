@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 600px) {
     .container.testimonials__container {
-        width: var(--container-width-sm);
+        width: 75%;
     }
 
     .client__review {
