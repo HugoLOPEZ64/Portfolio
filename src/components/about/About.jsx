@@ -33,7 +33,7 @@ const About = () => {
             <p>
               After being lucky enough to be able to experiment different careers around the world for the past 10 years, I have decided in 2020 to reconnect with my teenage years by studying web development. 
               I went ahead and chose to complete a 6 months JavaScript study course with <i><b><a href="https://oclock.io/formations/developpeur-web-fullstack-javascript" rel="noreferrer" target="_blank">O'clock</a></b></i> coding school. I have acquired various skills and knowledge and am now a web developer with a strong appetency for front end programming.<br></br><br></br>
-              Currenly based in Amsterdam, I am excited and open to new work opportunities.
+              Currenly living in Amsterdam, I am open to new work opportunities.
 
   
             </p>
