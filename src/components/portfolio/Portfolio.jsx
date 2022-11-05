@@ -7,6 +7,7 @@ import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
+
 const data = [
   {
     id: 1,
@@ -61,8 +62,8 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My projects</h5>
-      <h2>Portfolio</h2>
+      <h5>my projects</h5>
+      <h2>portfolio</h2>
 
       <div className="container portfolio__container">
         {
@@ -74,8 +75,8 @@ const Portfolio = () => {
           </div>
             <h3>{title}</h3>
                <div className="portfolio__item-cta">
-                <a href={github} target='_blank' rel="noreferrer" className='btn'>Github</a>
-                <a href={demo} className='btn btn-primary' rel="noreferrer" target='_blank'>Demo</a>   
+                <a href={github} target='_blank' rel="noreferrer" className='btn'>GitHub</a>
+                <a href={demo} className='btn btn-primary' rel="noreferrer" target='_blank'>demo</a>   
               </div>       
         </article>
           )

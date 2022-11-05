@@ -18,8 +18,8 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get in touch</h5>
-      <h2>Contact me</h2>
+      <h5>get in touch</h5>
+      <h2>contact me</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -37,12 +37,7 @@ const Contact = () => {
               <a href="https://wa.me/33785582688" target="_blank" rel="noreferrer">Send a message</a>
           </article>
 
-          <article className="contact__option">
-            <MdOutlineEmail className='contact_option-icon'/>
-              <h4>Email</h4>
-              
-              <a href="mailto:hugo.lopez002@gmail.com" target="_blank" rel="noreferrer">Send an email</a>
-          </article>
+          
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
