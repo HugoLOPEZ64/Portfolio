@@ -1,9 +1,9 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/otalktone.png'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG2 from '../../assets/countryguide3.png'
+import IMG3 from '../../assets/meditation.png'
+import IMG4 from '../../assets/weather.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
@@ -20,25 +20,25 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'project number 2',
-    github: 'http://github.com',
-    demo: 'https://otalktone.fly.dev/'
+    title: 'Country Guide, know everything about any country',
+    github: 'https://github.com/HugoLOPEZ64/Country-Guide',
+    demo: 'https://country-guide-coral.vercel.app/'
   },
 
   {
     id: 3,
     image: IMG3,
-    title: 'project number 3',
-    github: 'http://github.com',
-    demo: 'https://otalktone.fly.dev/'
+    title: 'The not so responsive Meditation app (WIP)',
+    github: 'https://github.com/HugoLOPEZ64/Meditation-app',
+    demo: 'https://meditation-app-black.vercel.app/'
   },
 
   {
     id: 4,
     image: IMG4,
-    title: 'project number 4',
+    title: 'Weather app. again.',
     github: 'http://github.com',
-    demo: 'https://otalktone.fly.dev/'
+    demo: 'https://weather-app-alpha-green.vercel.app/'
   },
 
   {

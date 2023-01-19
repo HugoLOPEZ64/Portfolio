@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import {BsCheckCircleFill} from 'react-icons/bs'
+
 import {AiFillHtml5} from 'react-icons/ai'
 import {IoLogoCss3} from 'react-icons/io'
 import {SiSass} from 'react-icons/si'
@@ -10,9 +10,10 @@ import {FaReact} from 'react-icons/fa'
 import {FaNodeJs} from 'react-icons/fa'
 import {SiExpress} from 'react-icons/si'
 import {SiPostgresql} from 'react-icons/si'
-import {SiStrapi} from 'react-icons/si'
+
 import {FaGitAlt} from 'react-icons/fa'
 import {FiFigma} from 'react-icons/fi'
+import {SiMongodb} from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -102,9 +103,9 @@ const Experience = () => {
               
             </article>
             <article className='experience__details'>
-            <SiStrapi className='experience__details-icon'/>
+            <SiMongodb className='experience__details-icon'/>
             <div>
-              <h4>Strapi</h4>
+              <h4>MongoDB</h4>
               <small className='text-light'></small>
             </div>
               
