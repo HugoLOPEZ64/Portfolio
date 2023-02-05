@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/otalktone.png'
-import IMG2 from '../../assets/countryguide3.png'
+import IMG2 from '../../assets/landing.png'
 import IMG3 from '../../assets/meditation.png'
 import IMG4 from '../../assets/weather.png'
 import IMG5 from '../../assets/travel.png'
@@ -21,10 +21,10 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Country Guide, know everything about any country',
-    sub: 'HTML CSS JavaScript',
-    github: 'https://github.com/HugoLOPEZ64/Country-Guide',
-    demo: 'https://country-guide-coral.vercel.app/'
+    title: 'The animated landing page. It is fun. (WIP)',
+    sub: 'HTML Sass React Framer-Motion',
+    github: 'https://github.com/HugoLOPEZ64/React-FramerMotion-landingpage',
+    demo: 'https://hugolopez-framermotion.netlify.app/'
   },
 
   {
