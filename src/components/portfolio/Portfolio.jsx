@@ -6,6 +6,8 @@ import IMG3 from '../../assets/meditation.png'
 import IMG4 from '../../assets/weather.png'
 import IMG5 from '../../assets/travel.png'
 import IMG6 from '../../assets/crud.png'
+import IMG7 from '../../assets/countryguide.png'
+import IMG8 from '../../assets/hugoframer2.png'
 
 
 const data = [
@@ -21,10 +23,19 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'The animated landing page. It is fun. (WIP)',
+    title: 'The funky animated landing page. It is very fun .',
     sub: 'HTML Sass React Framer-Motion',
     github: 'https://github.com/HugoLOPEZ64/React-FramerMotion-landingpage',
     demo: 'https://hugolopez-framermotion.netlify.app/'
+  },
+
+  {
+    id: 2,
+    image: IMG8,
+    title: 'Modern landing page made with Framer-Motion     .',
+    sub: 'HTML Sass React Framer-Motion',
+    github: 'https://github.com/HugoLOPEZ64/Modern-animated-landing-page',
+    demo: 'https://hugolopez-framermotion.vercel.app/'
   },
 
   {
@@ -61,6 +72,15 @@ const data = [
     sub: 'HTML CSS JavaScript',
     github: 'https://github.com/HugoLOPEZ64/crud-contact-list',
     demo: 'https://crud-contact-list.vercel.app/'
+  },
+
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Country Guide. find infos about any country',
+    sub: 'HTML CSS JavaScript',
+    github: 'https://github.com/HugoLOPEZ64/Country-Guide',
+    demo: 'https://country-guide-coral.vercel.app/'
   },
 
    

@@ -10,7 +10,7 @@ import {FaReact} from 'react-icons/fa'
 import {FaNodeJs} from 'react-icons/fa'
 import {SiExpress} from 'react-icons/si'
 import {SiPostgresql} from 'react-icons/si'
-
+import { FiFramer } from 'react-icons/fi'
 import {FaGitAlt} from 'react-icons/fa'
 import {FiFigma} from 'react-icons/fi'
 import {SiMongodb} from 'react-icons/si'
@@ -34,17 +34,9 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-            <IoLogoCss3 className='experience__details-icon'/>
-              <div>
-                <h4>CSS</h4>
-                <small className='text-light'></small>
-              </div>             
-            </article>
-
-            <article className='experience__details'>
             <SiSass className='experience__details-icon'/>
               <div>
-                <h4>Sass</h4>
+                <h4>CSS & SASS</h4>
                 <small className='text-light'></small>
               </div>             
             </article>
@@ -55,6 +47,14 @@ const Experience = () => {
                 <h4>Tailwind</h4>
                 <small className='text-light'></small>
               </div>              
+            </article>
+
+            <article className='experience__details'>
+            <FiFramer className='experience__details-icon'/>
+              <div>
+                <h4>Framer Motion</h4>
+                <small className='text-light'></small>
+              </div>             
             </article>
 
             <article className='experience__details'>
