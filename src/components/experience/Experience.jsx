@@ -2,7 +2,6 @@ import React from 'react'
 import './experience.css'
 
 import {AiFillHtml5} from 'react-icons/ai'
-import {IoLogoCss3} from 'react-icons/io'
 import {SiSass} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
 import {SiJavascript} from 'react-icons/si'
