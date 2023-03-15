@@ -11,8 +11,9 @@ import {SiExpress} from 'react-icons/si'
 import {SiPostgresql} from 'react-icons/si'
 import { FiFramer } from 'react-icons/fi'
 import {FaGitAlt} from 'react-icons/fa'
-import {FiFigma} from 'react-icons/fi'
+
 import {SiMongodb} from 'react-icons/si'
+import {GrWordpress} from 'react-icons/gr'
 
 const Experience = () => {
   return (
@@ -51,7 +52,7 @@ const Experience = () => {
             <article className='experience__details'>
             <FiFramer className='experience__details-icon'/>
               <div>
-                <h4>Framer Motion</h4>
+                <h4>Material UI, Bootstrap, Bulma</h4>
                 <small className='text-light'></small>
               </div>             
             </article>
@@ -118,9 +119,9 @@ const Experience = () => {
               
             </article>
             <article className='experience__details'>
-            <FiFigma className='experience__details-icon'/>
+            <GrWordpress className='experience__details-icon'/>
             <div>
-                <h4>Figma</h4>
+                <h4>Wordpress</h4>
                 <small className='text-light'></small>
             </div>
               
